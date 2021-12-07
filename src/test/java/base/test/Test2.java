@@ -5,4 +5,9 @@ public class Test2 {
 
         System.out.println("######");
     }
+
+    public static void neuMethod(){
+
+        System.out.println("method");
+    }
 }
