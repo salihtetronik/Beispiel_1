@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Praktikant/IdeaProjects/Beispiel_1">
+        <classes>
+
+            <class name="base.test.DaksLoginTest">
+                <methods>
+                    <include name="daksLoginTest"/>
+                    <include name="daksLoginTest5"/>
+                    <include name="daksLoginTest6"/>
+                    <include name="daksLoginTest7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
