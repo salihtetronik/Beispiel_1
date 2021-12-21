@@ -1,0 +1,20 @@
+
+<suite name="All Test Suite">
+    <test name="C:/Users/Praktikant/IdeaProjects/Beispiel_1">
+        <parameter name = "basisTest" value ="polat"></parameter>
+        <parameter name = "kontrol" value = "023"></parameter>
+        <parameter name = "kalender" value="Weinachten"></parameter>
+        <classes>
+
+            <class name="base.test.BasiseinstellungenTest">
+                <methods>
+                    <include name="telefonieTest"/>
+                    <include name="nachwahlkennzahlenTest"/>
+                </methods>
+
+            </class>
+
+            <class name="base.test.ZeitenTest"></class>
+        </classes>
+    </test>
+</suite>

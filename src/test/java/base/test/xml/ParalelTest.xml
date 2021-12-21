@@ -1,0 +1,22 @@
+
+<suite name="Paralel Test Suite" parallel="tests" thread-count="2">
+    <test name="test1">
+
+        <parameter name = "kalender" value="Weinachten"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+
+            <class name="base.test.ZeitenTest"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+
+        <parameter name = "kalender" value="Weinachten"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+
+            <class name="base.test.ZeitenTest"></class>
+        </classes>
+    </test>
+</suite>
